@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="margin-left: 500px;">
+        <h1>Đăng Ký Thành Viên</h1>
+        <div style="float: left;">
+            <div style="margin-top: 3px;">Họ Và Tên(*)</div>
+            <div style="margin-top: 3px;">Giới Tính</div>
+            <div  style="margin-top: 3px;">Ngày Sinh(*)</div>
+            <div  style="margin-top: 3px;">Email(*)</div>
+            <div  style="margin-top: 3px;">Tên Đằng Nhập(*)</div>
+            <div  style="margin-top: 3px;">Mật Khẩu(*)</div>
+            <div  style="margin-top: 3px;">Nhập Lại Mật Khẩu(*)</div>
+        </div>
+        
+        <div style="float: left;margin-left: 50px;">
+            <div>
+                <input id="name" type="text" />
+            </div>
+            <div>
+                <select name="gioitinh" id="gioitinh">
+                    <option value="Nam">Nam</option>
+                    <option value="Nữ">Nữ</option>
+                    <option value="Khác">Khác</option>
+        
+                </select>
+            </div>
+            <div>  
+                <span>Ngày</span>
+                <select name="ngay" id="ngay">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                
+                </select>
+                <span>Tháng</span>
+                <select name="thang" id="thang">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                
+                </select>
+                <span>Năm</span>
+                <input type="text" name="" id="namsinh">
+            </div>
+            <div><input type="text" id="email"></div>
+            <div><input type="text" id="username"></div>
+            <div>
+                <input id="password" type="password" placeholder="Password" />
+            </div>
+            <div>
+                <input id="repassword" type="password" placeholder="Confirm Password" />
+            </div>
+            
+            
+        </div>
+        
+        <div style="clear: both;"><input id="submit" type="submit" value="Submit" /></div>
+        <script src="13.js"></script>
+    </div>
+    
+</body>
+</html>
